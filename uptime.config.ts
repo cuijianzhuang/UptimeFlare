@@ -21,37 +21,43 @@ const workerConfig = {
       id: 'HomePage',
       name: 'HomePage',
       method: 'GET',
-      target: 'https://cuijianzhuang.com'
+      target: 'https://cuijianzhuang.com',
+      statusPageLink: 'https://cuijianzhuang.com'
     },
     {
       id: 'Blog',
       name: 'Blog',
       method: 'GET',
-      target: 'https://blog.cuijianzhuang.com'
+      target: 'https://blog.cuijianzhuang.com',
+      statusPageLink: 'https://blog.cuijianzhuang.com'
     },
     {
       id: 'Alist',
       name: 'Alist',
       method: 'GET',
-      target: 'https://pan.cuijianzhuang.com'
+      target: 'https://pan.cuijianzhuang.com',
+      statusPageLink: 'https://pan.cuijianzhuang.com'
     },
     {
       id: '1Panel',
       name: '1Panel',
       method: 'GET',
-      target: 'https://panel.cuijianzhuang.com'
+      target: 'https://panel.cuijianzhuang.com',
+      statusPageLink: 'https://panel.cuijianzhuang.com'
     },
     {
       id: 'Mail',
       name: '临时邮箱',
       method: 'GET',
-      target: 'https://mail.cuijianzhuang.com'
+      target: 'https://mail.cuijianzhuang.com',
+      statusPageLink: 'https://mail.cuijianzhuang.com'
     },
     {
       id: '探针',
       name: '探针',
       method: 'GET',
-      target: 'https://state.cuijianzhuang.com'
+      target: 'https://state.cuijianzhuang.com',
+      statusPageLink: 'https://state.cuijianzhuang.com',
     },
     // Example HTTP Monitor
     // {
