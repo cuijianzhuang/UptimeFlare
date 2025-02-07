@@ -52,13 +52,6 @@ const workerConfig = {
       target: 'https://mail.cuijianzhuang.com',
       statusPageLink: 'https://mail.cuijianzhuang.com'
     },
-    {
-      id: '探针',
-      name: '探针',
-      method: 'GET',
-      target: 'https://state.cuijianzhuang.com',
-      statusPageLink: 'https://state.cuijianzhuang.com',
-    },
     // Example HTTP Monitor
     // {
     //   // `id` should be unique, history will be kept if the `id` remains constant
